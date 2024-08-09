@@ -176,6 +176,7 @@ main .call-to-actions {
   display: flex;
   flex-direction: row;
   gap: 10px;
+  margin-block-end: 2.325rem;
 }
 main .call-to-actions a {
   padding: 17.5px 27.5px;

@@ -4,10 +4,11 @@ import Rating from './Rating';
 
 
 const TestimonialCard = (props) => {
+    const img = `import.meta.env.BASE_URL${props.src}`
     return (
         <>
             <div className="testimonial--card">
-                <Avatar src={props.src} />
+                <Avatar src={img} />
                 <p>{props.remark}</p>
                 <Rating rating={props.rating}/>
                 <h5>{props.author}</h5>

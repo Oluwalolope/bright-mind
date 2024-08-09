@@ -12,7 +12,7 @@ const StudentPreview = () => {
           <a href="#">Learn More</a>
         </div>
         <div className="student--illustration">
-            <img src="./src/assets/student-illustration.png" alt="A happy child"/>
+            <img src={import.meta.env.BASE_URL + "./src/assets/student-illustration.png"} alt="A happy child"/>
         </div>
       </section>
     );

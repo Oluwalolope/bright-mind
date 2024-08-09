@@ -7,7 +7,7 @@ import { FiDownload } from 'react-icons/fi';
 
 const ProductCard = (props) => {
     const productImage = {
-      backgroundImage: `url(${props.image})`
+      backgroundImage: `url(import.meta.env.BASE_URL${props.image})`,
     };
 
     return(

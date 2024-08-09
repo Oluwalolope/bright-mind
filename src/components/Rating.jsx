@@ -1,7 +1,6 @@
 import React from 'react';
-
-const checkedStar = './src/assets/checked-star.svg';
-const uncheckedStar = './src/assets/unchecked-star.svg';
+import checkedStar from 'import.meta.env.BASE_URL./src/assets/checked-star.svg';
+import uncheckedStar from 'import.meta.env.BASE_URL./src/assets/unchecked-star.svg';
 
 
 const Rating = (props) => {
@@ -10,7 +9,7 @@ const Rating = (props) => {
       <>
         <div className="ratings--grid">
           <span className="star">
-            <img src={checkedStar} alt="star icon" />
+            <img src={ checkedStar} alt="star icon" />
           </span>
           <span className="star">
             <img src={checkedStar} alt="star icon" />

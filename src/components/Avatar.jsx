@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Avatar = (props) => {
-  return <img src={props.src} alt="Testimonial Profile Photo" className="circle-img" />;
+  const img = `import.meta.env.BASE_URL${props.src}`;
+
+  return <img src={img} alt="Testimonial Profile Photo" className="circle-img" />;
 };
 
 export default Avatar;
