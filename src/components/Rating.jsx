@@ -1,6 +1,6 @@
 import React from 'react';
-import checkedStar from 'import.meta.env.BASE_URL./src/assets/checked-star.svg';
-import uncheckedStar from 'import.meta.env.BASE_URL./src/assets/unchecked-star.svg';
+import checkedStar from '/src/assets/checked-star.svg';
+import uncheckedStar from '/src/assets/unchecked-star.svg';
 
 
 const Rating = (props) => {
