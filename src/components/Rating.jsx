@@ -1,9 +1,9 @@
 import React from 'react';
-import checkedStar from '/src/assets/checked-star.svg';
-import uncheckedStar from '/src/assets/unchecked-star.svg';
 
 
 const Rating = (props) => {
+  const checkedStar = '/checked-star.svg';
+  const uncheckedStar = '/unchecked-star.svg';
 
     return (
       <>

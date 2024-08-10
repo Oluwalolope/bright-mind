@@ -14,7 +14,7 @@ const VideoPreview = () => {
         </div>
         <div className="videoPlayer">
             <div className='gradient'></div>
-            <img src={import.meta.env.BASE_URL + "./src/assets/video-preview.jpg"} alt="An advertisement" className='media' />
+            <img src="/video-preview.jpg" alt="An advertisement" className='media' />
             <button className='play'>
                 <FaPlay />
             </button>

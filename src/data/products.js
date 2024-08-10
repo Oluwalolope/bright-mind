@@ -1,7 +1,7 @@
 const products = [
     {
         id: '1',
-        image: './src/assets/product-image-1.jpg',
+        image: '/product-image-1.jpg',
         category: 'Expert Instruction',
         rating: '4.9',
         title: 'Every Client Matters',
@@ -12,7 +12,7 @@ const products = [
     },
     {
         id: '2',
-        image: './src/assets/product-image-2.jpg',
+        image: '/product-image-2.jpg',
         category: 'Books Library',
         rating: '4.6',
         title: 'Affordable Packages',
@@ -23,7 +23,7 @@ const products = [
     },
     {
         id: '3',
-        image: './src/assets/product-image-3.jpg',
+        image: '/product-image-3.jpg',
         category: 'Lifetime Access',
         rating: '5.0',
         title: 'Watch our Courses',
@@ -34,7 +34,7 @@ const products = [
     },
     {
         id: '4',
-        image: './src/assets/product-image-4.jpg',
+        image: '/product-image-4.jpg',
         category: 'Books Library',
         rating: '4.7',
         title: 'User Experience',

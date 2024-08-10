@@ -17,7 +17,7 @@ const Main = () => {
         </div>
 
         <div className='hero-box'>
-          <img src="./src/assets/hero-illustration.jpg" alt="a woman smiling" />
+          <img src="/hero-illustration.jpg" alt="a woman smiling" />
         </div>
       </div>
 
