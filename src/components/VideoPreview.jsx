@@ -1,5 +1,7 @@
 import React from 'react';
 import { FaPlay } from 'react-icons/fa';
+import videoPreview from '../assets/video-preview.jpg';
+
 
 const VideoPreview = () => {
     return (
@@ -14,7 +16,7 @@ const VideoPreview = () => {
         </div>
         <div className="videoPlayer">
             <div className='gradient'></div>
-            <img src="/video-preview.jpg" alt="An advertisement" className='media' />
+            <img src= { videoPreview } alt="An advertisement" className='media' />
             <button className='play'>
                 <FaPlay />
             </button>

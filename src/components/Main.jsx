@@ -1,6 +1,11 @@
 import React from 'react';
 import Card from './Card';
 import cards from '../data/cards';
+import heroImage from '../assets/hero-illustration.jpg';
+import card1 from '../assets/laptop-illustration.svg';
+import card2 from '../assets/telescope-illustration.svg';
+import card3 from '../assets/experiment-illustration.svg';
+
 
 const Main = () => {
   return (
@@ -17,7 +22,7 @@ const Main = () => {
         </div>
 
         <div className='hero-box'>
-          <img src="/hero-illustration.jpg" alt="a woman smiling" />
+          <img src={ heroImage }  alt="a woman smiling" />
         </div>
       </div>
 

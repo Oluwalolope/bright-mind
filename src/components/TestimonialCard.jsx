@@ -1,6 +1,8 @@
 import React from 'react';
 import Avatar from './Avatar';
 import Rating from './Rating';
+import testimonial1 from '../assets/testimonial-profile-1.png';
+import testimonial2 from '../assets/testimonial-profile-2.png';
 
 
 const TestimonialCard = (props) => {

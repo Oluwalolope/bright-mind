@@ -1,7 +1,12 @@
+import product1 from '../assets/product-image-1.jpg';
+import product2 from '../assets/product-image-2.jpg';
+import product3 from '../assets/product-image-3.jpg';
+import product4 from '../assets/product-image-4.jpg';
+
 const products = [
     {
         id: '1',
-        image: '/product-image-1.jpg',
+        image: product1 ,
         category: 'Expert Instruction',
         rating: '4.9',
         title: 'Every Client Matters',
@@ -12,7 +17,7 @@ const products = [
     },
     {
         id: '2',
-        image: '/product-image-2.jpg',
+        image: product2 ,
         category: 'Books Library',
         rating: '4.6',
         title: 'Affordable Packages',
@@ -23,7 +28,7 @@ const products = [
     },
     {
         id: '3',
-        image: '/product-image-3.jpg',
+        image: product3,
         category: 'Lifetime Access',
         rating: '5.0',
         title: 'Watch our Courses',
@@ -34,7 +39,7 @@ const products = [
     },
     {
         id: '4',
-        image: '/product-image-4.jpg',
+        image: product4 ,
         category: 'Books Library',
         rating: '4.7',
         title: 'User Experience',

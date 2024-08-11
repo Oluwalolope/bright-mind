@@ -1,4 +1,8 @@
 import React from 'react';
+import card1 from '../assets/laptop-illustration.svg';
+import card2 from '../assets/telescope-illustration.svg';
+import card3 from '../assets/experiment-illustration.svg';
+
 
 const Card = (props) => {
     return(

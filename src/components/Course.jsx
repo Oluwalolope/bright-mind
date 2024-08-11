@@ -1,5 +1,9 @@
 import React from 'react';
 import products from '../data/products'
+import product1 from '../assets/product-image-1.jpg';
+import product2 from '../assets/product-image-2.jpg';
+import product3 from '../assets/product-image-3.jpg';
+import product4 from '../assets/product-image-4.jpg';
 import ProductCard from './ProductCard';
 
 const Course = () => {

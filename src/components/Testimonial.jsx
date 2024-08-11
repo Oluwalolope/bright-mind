@@ -1,6 +1,9 @@
 import React from 'react';
 import TestimonialCard from './TestimonialCard';
 import testimonials from '../data/testimonials';
+import testimonial1 from '../assets/testimonial-profile-1.png';
+import testimonial2 from '../assets/testimonial-profile-2.png';
+
 
 
 const Testimonial = () => {

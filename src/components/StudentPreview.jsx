@@ -1,4 +1,6 @@
 import React from 'react';
+import studentHero from '../assets/student-illustration.png';
+
 
 const StudentPreview = () => {
     return (
@@ -12,7 +14,7 @@ const StudentPreview = () => {
           <a href="#">Learn More</a>
         </div>
         <div className="student--illustration">
-            <img src="/student-illustration.png" alt="A happy child"/>
+            <img src={ studentHero } alt="A happy child"/>
         </div>
       </section>
     );
