@@ -3,6 +3,7 @@ import product1 from '../assets/product-image-1.jpg';
 import product2 from '../assets/product-image-2.jpg';
 import product3 from '../assets/product-image-3.jpg';
 import product4 from '../assets/product-image-4.jpg';
+import checkedStar from '../assets/checked-star.svg';
 import { FaRegHeart } from 'react-icons/fa6';
 import { BsCart } from 'react-icons/bs';
 import { IoEye } from 'react-icons/io5';
@@ -36,7 +37,7 @@ const ProductCard = (props) => {
                 <div className="product--category">
                     <p>{props.category}</p>
                     <div className="product--rating">
-                        <img src="./src/assets/checked-star.svg" alt="star icon" />
+                        <img src={checkedStar} alt="star icon" />
                         <span>{props.rating}</span>
                     </div>
                 </div>
